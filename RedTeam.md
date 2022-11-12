@@ -12,7 +12,7 @@ Command: `$ nmap -sV 192.168.1.110`
 
 Output Screenshot:
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Nmap-Scan.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Nmap-Scan.png)
 
 This scan identifies the services below as potential points of entry:
 
@@ -44,7 +44,7 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
 
 **WPScan Results:**
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/WPscan.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/WPscan.png)
 
 - Targeting user Michael
     - Simply guessed Michael’s password, as it was very obvious
@@ -59,7 +59,7 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - `$ cd /var/www/html`
         - `$ cat service.html`
         
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Flag1.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Flag1.png)
 
 - **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
 - Exploit Used:
@@ -75,7 +75,7 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
         - `ls`
         - `cat flag2.txt`
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Flag2.png) 
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Flag2.png) 
 
 - **Flag3: afc01ab56b50591e7dccf93122770cd2**
 - Exploit Used:
@@ -92,6 +92,6 @@ The Red Team was able to penetrate Target 1 and retrieve the following confident
          - `show tables;`
          - `select * from wp_posts;`
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Flag3.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Flag3.png)
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Flag4.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Flag4.png)
