@@ -41,7 +41,7 @@ The following machines were identified on the network:
 - Port 22/TCP 	Open 	SSH	OpenSSH 6.7p1 Debian 5+deb8u4
 - Port 80/TCP 	Open 	HTTP	Apache httpd 2.4.10 (Debian)
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/Nmap-Scan.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/Nmap-Scan.png)
 
 Traffic to these services should be carefully monitored. To this end, we have implemented the alerts below:
 
@@ -58,7 +58,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 - Reliability: 
     - The alert has demonstrated highly reliability 
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/HTTP-Errors-alert.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/HTTP-Errors-alert.png)
 
 **HTTP Request Size Monitor**
 
@@ -73,7 +73,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 - Reliability:
     - This alert demonstrates medium reliability, as it has produced some false positives
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/HTTP-Request-size-alert.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/HTTP-Request-size-alert.png)
 
 **CPU Usage Monitor**
 
@@ -88,7 +88,7 @@ Traffic to these services should be carefully monitored. To this end, we have im
 - Reliability: 
     - The alert demonstrates high reliability 
 
-![alt text](https://github.com/carlwarnberg/Project-3/blob/main/Images/CPU-Usage-alert.png)
+![alt text](https://github.com/ynottruly/UCR-Cybersecurity-Final-Engagement/blob/main/Images/CPU-Usage-alert.png)
 
 ### Suggestions for Going Further
 
